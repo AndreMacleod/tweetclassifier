@@ -5,8 +5,9 @@ The code is easily changeable to any two users.
 Currnetly set up as an app that gives a response to localhost, given a user query. To test model, run app.py and then 
 curl -X GET -H "Content-type: application/json"  -H "Accept: application/json"  -d "{\"query\":\"TEST TWEET\"}"  "http://127.0.0.1:5000/"
 Trying 'I love bitcoin' and 'we stand with Ukraine' gave Musk and Biden responses, as a very small initial test. The model itself has a test set, and the resulting CM is included as png. Metrics are as follows:
+
 Evaluation metrics
-==================
+
               precision    recall  f1-score   support
 
        biden       1.00      0.73      0.84        11
