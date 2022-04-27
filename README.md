@@ -4,9 +4,9 @@
 This runs on python. The required packages are in requirements.txt
 
 To run:
-run script.py
-run app.py
-In the terminal (for Windows):
+-run script.py
+-run app.py
+-In the terminal (for Windows):
 curl -X GET -H "Content-type: application/json"  -H "Accept: application/json"  -d "{\"query\":\"TEST TWEET\"}"  "http://127.0.0.1:5000/"
 
 
